@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<body>
+<!-- Include this fragment in your main layout to load all scripts -->
+<th:block th:fragment="scripts">
+    <script th:src="@{/libs/jquery/dist/jquery.min.js}"></script>
+    <script th:src="@{/libs/bootstrap/dist/js/bootstrap.bundle.min.js}"></script>
+    <script th:src="@{/js/sidebarmenu.js}"></script>
+    <script th:src="@{/js/app.min.js}"></script>
+    <script th:src="@{/libs/simplebar/dist/simplebar.js}"></script>
+</th:block>
+</body>
+</html>
