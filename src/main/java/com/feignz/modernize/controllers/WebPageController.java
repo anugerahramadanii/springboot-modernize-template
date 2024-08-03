@@ -53,6 +53,11 @@ public class WebPageController {
 		return "ui-forms.html";
 	}
 
+	@RequestMapping("/ui-data-tables")
+	public String uiDataTables(){
+		return "ui-data-tables.html";
+	}
+
 	@RequestMapping("/ui-typography")
 	public String uiTypography(){
 		return "ui-typography";
